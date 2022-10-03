@@ -1,0 +1,57 @@
+h2
+{
+    text-decoration: underline;
+    color: indianred;
+}
+button 
+{
+    color: white;
+    width: 100px;
+    height:30px;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 5px;
+}
+p
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.transition
+{
+    width: 100px;
+    height: 80px;
+    background-color: plum;
+    transition: all 1s ease;
+}
+.transition:hover
+{
+    width: 300px;
+    background-color: rgb(244, 85, 244);
+    border-radius: 20px;
+} 
+.border-radius
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: palegreen;
+} 
+a
+{
+    color: dodgerblue;
+}
+.animation
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-image: conic-gradient(magenta, olive, darkorange, teal,yellowgreen);
+    animation: test 1s linear infinite;  
+}
+@keyframes test 
+{   
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
